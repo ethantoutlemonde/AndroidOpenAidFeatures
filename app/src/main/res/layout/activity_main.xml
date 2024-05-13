@@ -4,13 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".WareHouses">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="575dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+
     <Button
+        android:id="@+id/btnPlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="WareHouses"
-        android:id="@+id/warehouseButton"
-        />
+        android:backgroundTint="@color/black"
+        android:text="Play"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="LastScore :"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:gravity="right"
+        android:text="Coucou"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:id="@+id/LastScore"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="Coin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:gravity="right"
+        android:text="Coucou"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:id="@+id/Money"/>
 
 </LinearLayout>
